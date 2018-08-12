@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import 'isomorphic-fetch';
 
 class App extends Component {
     render() {
