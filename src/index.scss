@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-weight: 300;
+    padding: .5rem 2rem .25rem;
+}
+
+a {
+    cursor: pointer;
+    &:hover {
+        color: tomato;
+    }
+}
+
+.flexcolumn {
+    display: flex;
+    flex-direction: column;
+}
